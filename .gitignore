@@ -1,0 +1,23 @@
+# Design source files (PSDs, large files — never commit to GitHub)
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Archive folder (historical backups — not needed in repo)
+_archive/
+
+# Design system reference files (fonts, SVGs — not production)
+templates/
+
+# Deploy folder (managed separately via Vercel)
+guido piotto deploy/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# Python scripts (temp tools)
+*.py
